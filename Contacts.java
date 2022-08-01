@@ -2,8 +2,8 @@ package com.Address.Book.java;
 
 public class Contacts {
 
-	private String firstName, lastName, address, city, state, zip, phoneNo, email ;
-	
+	private String firstName, lastName, address, city, state, zip, phoneNo, email;
+
 	public String getFirstName() {
 		return firstName;
 	}
@@ -69,18 +69,10 @@ public class Contacts {
 	}
 
 	public String toString() {
-		return "Contacts \n"+
-	           "-----------------------------\n"+
-	           "First Name :\t" + firstName +
-	           "\nLast Name  :\t" + lastName +
-	           "\nAddress    :\t" + address +
-	           "\nCity       :\t" + city +
-	           "\nState      :\t" + state +
-	           "\nZip        :\t" + zip +
-	           "\nPhone No   :\t" + phoneNo+
-	           "\nEmail Id   :\t" + email;
-		
+		return "Contacts \n" + "-----------------------------\n" + "First Name :\t" + firstName + "\nLast Name  :\t"
+				+ lastName + "\nAddress    :\t" + address + "\nCity       :\t" + city + "\nState      :\t" + state
+				+ "\nZip        :\t" + zip + "\nPhone No   :\t" + phoneNo + "\nEmail Id   :\t" + email;
+
 	}
 
 }
-	
