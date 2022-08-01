@@ -1,6 +1,5 @@
 package com.Address.Book.java;
 
-
 public class Contacts {
 
 	private String firstName, lastName, address, city, state, zip, phoneNo, email ;
@@ -82,4 +81,6 @@ public class Contacts {
 	           "\nEmail Id   :\t" + email;
 		
 	}
+
 }
+	
